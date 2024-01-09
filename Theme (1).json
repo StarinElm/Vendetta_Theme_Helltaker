@@ -1,80 +1,153 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-  <name>Cerberus</name>
-  <description>Helltaker Cerberus theme for Vendetta</description>
-  <authors array="true">
-    <name>Starin</name>
-    <id string="true"/>
-  </authors>
-  <semanticColors>
-    <HEADER_PRIMARY array="true">#88738A</HEADER_PRIMARY>
-    <HEADER_SECONDARY array="true">#80848e</HEADER_SECONDARY>
-    <TEXT_NORMAL array="true">#ffffff</TEXT_NORMAL>
-    <TEXT_MUTED array="true">#ff0000</TEXT_MUTED>
-    <TEXT_LINK array="true">#80848e</TEXT_LINK>
-    <TEXT_DANGER array="true">#ff0000</TEXT_DANGER>
-    <INTERACTIVE_NORMAL array="true">#E52555</INTERACTIVE_NORMAL>
-    <INTERACTIVE_HOVER array="true">#E55555</INTERACTIVE_HOVER>
-    <INTERACTIVE_ACTIVE array="true">#E55555</INTERACTIVE_ACTIVE>
-    <INTERACTIVE_MUTED array="true">#80848e</INTERACTIVE_MUTED>
-    <BACKGROUND_PRIMARY array="true">#000000</BACKGROUND_PRIMARY>
-    <BACKGROUND_SECONDARY array="true">#000000</BACKGROUND_SECONDARY>
-    <BACKGROUND_SECONDARY_ALT array="true">#000000</BACKGROUND_SECONDARY_ALT>
-    <BACKGROUND_TERTIARY array="true">#000000</BACKGROUND_TERTIARY>
-    <BACKGROUND_ACCENT array="true">#ff0000</BACKGROUND_ACCENT>
-    <BACKGROUND_FLOATING array="true">#000000</BACKGROUND_FLOATING>
-    <BACKGROUND_MOBILE_PRIMARY array="true">#000000</BACKGROUND_MOBILE_PRIMARY>
-    <BACKGROUND_MOBILE_SECONDARY array="true">#000000</BACKGROUND_MOBILE_SECONDARY>
-    <BACKGROUND_MENTIONED array="true">#E52555</BACKGROUND_MENTIONED>
-    <BACKGROUND_NESTED_FLOATING array="true">#000000</BACKGROUND_NESTED_FLOATING>
-    <BACKGROUND_MESSAGE_HOVER array="true">#ff0000</BACKGROUND_MESSAGE_HOVER>
-    <BACKGROUND_MODIFIER_HOVER array="true">#000000aa</BACKGROUND_MODIFIER_HOVER>
-    <BACKGROUND_MODIFIER_ACTIVE array="true">#E52555</BACKGROUND_MODIFIER_ACTIVE>
-    <BACKGROUND_MODIFIER_SELECTED array="true">#E52555</BACKGROUND_MODIFIER_SELECTED>
-    <BACKGROUND_MODIFIER_ACCENT array="true">#000000</BACKGROUND_MODIFIER_ACCENT>
-    <SCROLLBAR_THIN_THUMB array="true">#ffffff</SCROLLBAR_THIN_THUMB>
-    <SCROLLBAR_THIN_TRACK array="true">ffffff</SCROLLBAR_THIN_TRACK>
-    <SCROLLBAR_AUTO_THUMB array="true">#ffffff</SCROLLBAR_AUTO_THUMB>
-    <SCROLLBAR_AUTO_TRACK array="true">#ffffff</SCROLLBAR_AUTO_TRACK>
-    <KEYBOARD array="true">#000000</KEYBOARD>
-    <CHANNEL_TEXT_AREA_PLACEHOLDER array="true">#ff0000</CHANNEL_TEXT_AREA_PLACEHOLDER>
-    <CHANNELTEXTAREA_BACKGROUND array="true">#f23f43</CHANNELTEXTAREA_BACKGROUND>
-    <CHANNEL_ICON array="true">#f1799c</CHANNEL_ICON>
-    <CHANNELS_DEFAULT array="true">#ff0000</CHANNELS_DEFAULT>
-    <CHAT_BACKGROUND array="true">#000000</CHAT_BACKGROUND>
-    <SPOILER_HIDDEN_BACKGROUND array="true">#E99999</SPOILER_HIDDEN_BACKGROUND>
-  </semanticColors>
-  <rawColors>
-    <PRIMARY_100>#d595a8</PRIMARY_100>
-    <PRIMARY_130>#ff00ff</PRIMARY_130>
-    <PRIMARY_230>#98bbc4</PRIMARY_230>
-    <PRIMARY_300>#98bbc4</PRIMARY_300>
-    <PRIMARY_360>#d595a8</PRIMARY_360>
-    <PRIMARY_400>#80848e</PRIMARY_400>
-    <PRIMARY_500>#666666</PRIMARY_500>
-    <PRIMARY_600>#000000</PRIMARY_600>
-    <PRIMARY_630>#000000</PRIMARY_630>
-    <PRIMARY_660>#000000</PRIMARY_660>
-    <PRIMARY_700>#000000</PRIMARY_700>
-    <PRIMARY_800>#000000</PRIMARY_800>
-    <PRIMARY_900>#020202</PRIMARY_900>
-    <BRAND_360>#f1799c</BRAND_360>
-    <YELLOW_300>#f1799c</YELLOW_300>
-    <BRAND_260>#f1799c</BRAND_260>
-    <BRAND_500>#f1799c</BRAND_500>
-    <BRAND_530>#f1799c</BRAND_530>
-    <BRAND_560>#12a2df</BRAND_560>
-    <GREEN_360>#23a55a</GREEN_360>
-    <RED_400>#f23f43</RED_400>
-    <ORANGE_345>#ff72ff</ORANGE_345>
-    <RED_560>#ffae1a</RED_560>
-    <GREEN_345>#1ac5ff</GREEN_345>
-    <BLUE_345>#8bff1c</BLUE_345>
-  </rawColors>
-  <spec number="true">2</spec>
-  <background>
-    <url>https://media.discordapp.net/attachments/803725668352393256/1194075170734882907/QvCri2qH-wallha.com.png?ex=65af0829&amp;is=659c9329&amp;hm=6b1b04874de682461cd31d61b112c3a314645e34863ae8e88030a533591cd5d9&amp;</url>
-    <alpha number="true">0.5</alpha>
-    <color>#081924</color>
-  </background>
-</root>
+{
+  "name": "Cerberus",
+  "description": "Helltaker Cerberus theme for Vendetta",
+  "authors": [
+    {
+      "name": "Starin",
+      "id": ""
+    }
+  ],
+  "semanticColors": {
+    "HEADER_PRIMARY": [
+      "#88738A"
+    ],
+    "HEADER_SECONDARY": [
+      "#80848e"
+    ],
+    "TEXT_NORMAL": [
+      "#ffffff"
+    ],
+    "TEXT_MUTED": [
+      "#ff0000"
+    ],
+    "TEXT_LINK": [
+      "#80848e"
+    ],
+    "TEXT_DANGER": [
+      "#ff0000"
+    ],
+    "INTERACTIVE_NORMAL": [
+      "#E52555"
+    ],
+    "INTERACTIVE_HOVER": [
+      "#E55555"
+    ],
+    "INTERACTIVE_ACTIVE": [
+      "#E55555"
+    ],
+    "INTERACTIVE_MUTED": [
+      "#80848e"
+    ],
+    "BACKGROUND_PRIMARY": [
+      "#000000"
+    ],
+    "BACKGROUND_SECONDARY": [
+      "#000000"
+    ],
+    "BACKGROUND_SECONDARY_ALT": [
+      "#000000"
+    ],
+    "BACKGROUND_TERTIARY": [
+      "#000000"
+    ],
+    "BACKGROUND_ACCENT": [
+      "#ff0000"
+    ],
+    "BACKGROUND_FLOATING": [
+      "#000000"
+    ],
+    "BACKGROUND_MOBILE_PRIMARY": [
+      "#000000"
+    ],
+    "BACKGROUND_MOBILE_SECONDARY": [
+      "#000000"
+    ],
+    "BACKGROUND_MENTIONED": [
+      "#E52555"
+    ],
+    "BACKGROUND_NESTED_FLOATING": [
+      "#000000"
+    ],
+    "BACKGROUND_MESSAGE_HOVER": [
+      "#ff0000"
+    ],
+    "BACKGROUND_MODIFIER_HOVER": [
+      "#000000aa"
+    ],
+    "BACKGROUND_MODIFIER_ACTIVE": [
+      "#E52555"
+    ],
+    "BACKGROUND_MODIFIER_SELECTED": [
+      "#E52555"
+    ],
+    "BACKGROUND_MODIFIER_ACCENT": [
+      "#000000"
+    ],
+    "SCROLLBAR_THIN_THUMB": [
+      "#ffffff"
+    ],
+    "SCROLLBAR_THIN_TRACK": [
+      "ffffff"
+    ],
+    "SCROLLBAR_AUTO_THUMB": [
+      "#ffffff"
+    ],
+    "SCROLLBAR_AUTO_TRACK": [
+      "#ffffff"
+    ],
+    "KEYBOARD": [
+      "#000000"
+    ],
+    "CHANNEL_TEXT_AREA_PLACEHOLDER": [
+      "#ff0000"
+    ],
+    "CHANNELTEXTAREA_BACKGROUND": [
+      "#f23f43"
+    ],
+    "CHANNEL_ICON": [
+      "#f1799c"
+    ],
+    "CHANNELS_DEFAULT": [
+      "#ff0000"
+    ],
+    "CHAT_BACKGROUND": [
+      "#000000"
+    ],
+    "SPOILER_HIDDEN_BACKGROUND": [
+      "#E99999"
+    ]
+  },
+  "rawColors": {
+    "PRIMARY_100": "#d595a8",
+    "PRIMARY_130": "#ff00ff",
+    "PRIMARY_230": "#98bbc4",
+    "PRIMARY_300": "#98bbc4",
+    "PRIMARY_360": "#d595a8",
+    "PRIMARY_400": "#80848e",
+    "PRIMARY_500": "#666666",
+    "PRIMARY_600": "#000000",
+    "PRIMARY_630": "#000000",
+    "PRIMARY_660": "#000000",
+    "PRIMARY_700": "#000000",
+    "PRIMARY_800": "#000000",
+    "PRIMARY_900": "#020202",
+    "BRAND_360": "#f1799c",
+    "YELLOW_300": "#f1799c",
+    "BRAND_260": "#f1799c",
+    "BRAND_500": "#f1799c",
+    "BRAND_530": "#f1799c",
+    "BRAND_560": "#12a2df",
+    "GREEN_360": "#23a55a",
+    "RED_400": "#f23f43",
+    "ORANGE_345": "#ff72ff",
+    "RED_560": "#ffae1a",
+    "GREEN_345": "#1ac5ff",
+    "BLUE_345": "#8bff1c"
+  },
+  "spec": 2,
+  "background": {
+    "url": "https://media.discordapp.net/attachments/803725668352393256/1194075170734882907/QvCri2qH-wallha.com.png?ex=65af0829&is=659c9329&hm=6b1b04874de682461cd31d61b112c3a314645e34863ae8e88030a533591cd5d9&",
+    "alpha": 0.5,
+    "color": "#081924"
+  }
+}
